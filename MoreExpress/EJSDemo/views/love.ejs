@@ -1,0 +1,9 @@
+<% include partials/header %>
+<h1>You fell in love with : <%= varThing.toUpperCase() %></h1>
+
+<% if(varThing.toLowerCase()==="iphone"){ %>
+    <p>Good Choice!</p>
+<% } else{ %>
+    <p>Try Again!!</p>
+<% } %>
+<% include partials/footer %>
